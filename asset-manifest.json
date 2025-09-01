@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/meishidaojiaPage/static/css/main.038a853a.css",
+    "main.js": "/meishidaojiaPage/static/js/main.628490b3.js",
+    "static/js/453.fdb7db36.chunk.js": "/meishidaojiaPage/static/js/453.fdb7db36.chunk.js",
+    "static/media/bag.png": "/meishidaojiaPage/static/media/bag.c0b20df765f996bcc635.png",
+    "index.html": "/meishidaojiaPage/index.html",
+    "main.038a853a.css.map": "/meishidaojiaPage/static/css/main.038a853a.css.map",
+    "main.628490b3.js.map": "/meishidaojiaPage/static/js/main.628490b3.js.map",
+    "453.fdb7db36.chunk.js.map": "/meishidaojiaPage/static/js/453.fdb7db36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.038a853a.css",
+    "static/js/main.628490b3.js"
+  ]
+}
