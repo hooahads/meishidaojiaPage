@@ -2,7 +2,7 @@
   "name": "react-app6",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hooahads.github.io/meishidaojia",
+  "homepage": "https://hooahads.github.io/meishidaojiaPage",
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -26,7 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages-d build",
+    "deploy": "copy build\\index.html build\\404.html && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
