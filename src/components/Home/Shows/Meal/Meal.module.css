@@ -1,0 +1,67 @@
+.ShowsPane {
+  width: 95.73333333vw;
+  background-color: #f5f5f5;
+}
+.ShowsPane .Show {
+  display: flex;
+  width: 91.46666667vw;
+  height: 26.66666667vw;
+  background-color: #fff;
+  padding: 2.13333333vw;
+  margin-bottom: 2.13333333vw;
+  border-radius: 2.13333333vw;
+}
+.ShowsPane .Show .Img {
+  width: 100%;
+  border-radius: 1.6vw;
+  margin-right: 2.13333333vw;
+}
+.ShowsPane .Show .RightSize {
+  width: 62.13333333vw;
+  height: 25.6vw;
+}
+.ShowsPane .Show .RightSize .Title {
+  text-align: left;
+  width: 62.13333333vw;
+  height: 5.33333333vw;
+  background-color: #fff;
+}
+.ShowsPane .Show .RightSize .Title2 {
+  text-align: left;
+  width: 62.13333333vw;
+  height: 9.06666667vw;
+  margin-top: 0.53333333vw;
+  background-color: #fff;
+  font-size: 3.2vw;
+  overflow: hidden;
+}
+.ShowsPane .Show .RightSize .Title3 {
+  text-align: left;
+  width: 62.13333333vw;
+  height: 3.73333333vw;
+  margin-top: 0.8vw;
+  background-color: #fff;
+  line-height: 3.73333333vw;
+  font-size: 3.2vw;
+  color: #FECE4D;
+}
+.ShowsPane .Show .RightSize .Title3 .Sell {
+  color: #6c6c6c;
+  margin-left: 3.2vw;
+}
+.ShowsPane .Show .RightSize .Title4 {
+  display: flex;
+  justify-content: space-between;
+  width: 62.13333333vw;
+  height: 3.73333333vw;
+  margin-top: 1.06666667vw;
+  background-color: #fff;
+  line-height: 3.73333333vw;
+  color: red;
+}
+.ShowsPane .Show .RightSize .Title4 .Yuan {
+  font-size: 3.73333333vw;
+}
+.ShowsPane .Show .RightSize .Title4 .IconBase {
+  color: #000;
+}

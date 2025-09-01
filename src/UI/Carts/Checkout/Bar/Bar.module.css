@@ -1,0 +1,31 @@
+.Bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 4vw;
+  width: 96.53333333vw;
+  height: 10.66666667vw;
+  background-color: #4f4c4c;
+  border-radius: 4.8vw;
+  left: 0;
+  right: 0;
+  margin: auto ;
+  z-index: 999;
+}
+.TotalPrice {
+  color: #fff;
+  position: relative;
+  left: 40px;
+  line-height: 10.66666667vw;
+}
+.Button {
+  border-radius: 4.8vw;
+  width: 24vw;
+  background-color: #fcbf49;
+  border: none;
+}
+.Dis {
+  background-color: #808080;
+  color: #bdbdbd;
+}

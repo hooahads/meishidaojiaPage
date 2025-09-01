@@ -1,0 +1,76 @@
+//out:./
+@vw:3.75vw;
+
+.Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: (375/@vw);
+    height: (40/@vw);
+    // background-color: yellowgreen;
+    z-index: 99;
+
+        .Home{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: (125/@vw);
+            height: (40/@vw);
+            background-color: #fff;
+            text-align: center;
+            line-height: (26/@vw);
+            font-size: (15/@vw);
+
+        }
+
+        .Orders{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            width: (125/@vw);
+            height: (40/@vw);
+            background-color: #fff;
+            text-align: center;
+            line-height: (26/@vw);
+            font-size: (16/@vw);
+            .Number{
+                position: absolute;
+                left: (66/@vw);
+                bottom: (24/@vw);
+                width: (12/@vw);
+                height: (12/@vw);
+                border-radius: 50%;
+                background-color: #ff0000;
+                text-align: center;
+                font-size: (10/@vw);
+                line-height: (12/@vw);
+                color: #fff;
+            }
+        }
+        .User{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: (125/@vw);
+            height: (40/@vw);
+            background-color: #fff;
+            text-align: center;
+            line-height: (40/@vw);
+            font-size: (16/@vw);
+        }
+        
+        .Title{
+                font-size: (7/@vw);
+                font-weight: 200;
+                margin: 0;
+                padding: 0;
+                line-height: (12/@vw);
+                margin-bottom: (2/@vw);
+            }
+
+        .Active {
+            color: #FECE4D;
+        }
+}

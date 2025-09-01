@@ -1,0 +1,35 @@
+.Bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0vw;
+  width: 100vw;
+  height: 10.66666667vw;
+  background-color: #ffff;
+  left: 0;
+  margin-bottom: 10.93333333vw;
+}
+.TotalPrice {
+  color: #fb2929;
+  position: relative;
+  left: 40px;
+  line-height: 10.66666667vw;
+}
+.Button {
+  border-radius: 4.8vw;
+  width: 21.33333333vw;
+  height: 9.06666667vw;
+  margin-top: 1.06666667vw;
+  margin-right: 1.6vw;
+  background-color: #fcbf49;
+  border: none;
+}
+.Dis {
+  width: 21.33333333vw;
+  height: 9.06666667vw;
+  margin-top: 1.06666667vw;
+  margin-right: 1.6vw;
+  background-color: #878787;
+  color: #bdbdbd;
+}

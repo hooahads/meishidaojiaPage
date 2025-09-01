@@ -1,0 +1,83 @@
+// out:./
+
+.Checkout{
+    position: fixed ;
+    background-color: #eee;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: (365/3.75vw);
+    // z-index: 99;
+    padding: (5/3.75vw);
+}
+
+.Close{
+    color: #000;
+    font-size: (18/3.75vw);
+}
+
+.MealsDesc{
+    background-color: #fff;
+    border-radius: (10/3.75vw);
+    // padding: 0 20rem ;
+}
+
+.Meals{
+    /* background-color: #585454; */
+    max-height: (440/3.75vw);
+    overflow: auto;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+        .Title{
+            padding-top: (10/3.75vw);
+            font-size: (14/3.75vw);
+            margin-left: (10/3.75vw);
+        }
+
+        .CleanerTitle{
+            padding-top: (10/3.75vw);
+            font-size: (14/3.75vw);
+            margin-right: (10/3.75vw);
+            font-weight: 400;
+            color: #797979;
+}
+
+}
+
+.Footer{
+    position: relative;
+    height: (60/3.75vw);
+    border-top: 1px dashed #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: (18/3.75vw);
+
+}
+
+// .Footer::before,
+// .Footer::after{
+//     content: '';
+//     position: absolute;
+//     width: (14/3.75vw);
+//     height: (14/3.75vw);
+//     background-color: #eee;
+//     border-radius: 50%;
+//     top: -6px;
+// }
+
+.TotalPrice::before{
+    content: '合计￥';
+    font-weight: normal;
+    font-size: (12/3.75vw);
+    margin-right: (6/3.75vw);
+}
+
+.TotalPrice{
+    margin-right: (30/3.75vw);
+}

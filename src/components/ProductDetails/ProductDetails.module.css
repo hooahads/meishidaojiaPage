@@ -1,0 +1,80 @@
+.Pannel {
+  width: 100vw;
+  height: 80vw;
+  background-color: #635959;
+}
+.DetailPane {
+  width: 100vw;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+.DetailPane .Price {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 24vw;
+  background-color: #fd3f26;
+}
+.DetailPane .Price .Yuan {
+  margin-top: -5.33333333vw;
+  display: inline-block;
+  margin-left: 4.8vw;
+  color: #fff;
+  font-size: 4vw;
+}
+.DetailPane .Price .Yuan .Money {
+  display: inline-block;
+  font-size: 5.33333333vw;
+}
+.DetailPane .Price .Discount {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: 10px;
+  width: 80px;
+  height: 22px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.DetailPane .Price .Discount p {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #fd3f26;
+}
+.DetailPane .Price .Discount span {
+  margin-top: 4px;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #fd3f26;
+}
+.DetailPane .Price .Discount .Dis {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bolder;
+  line-height: 20px;
+}
+.DetailPane .Price .Save {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 18.66666667vw;
+  height: 12vw;
+  margin-top: -5.33333333vw;
+  margin-left: 40vw;
+  font-size: 3.2vw;
+}
+.DetailPane .Price .Save .New {
+  color: #fff;
+  font-size: 4vw;
+}
+.DetailPane .Price .Save .MoneySave {
+  display: flex;
+  color: #fff;
+}
+.DetailPane .Price .Save .MoneySave div {
+  font-size: 4.8vw;
+  font-weight: 600;
+  text-align: center;
+  line-height: 3.2vw;
+}

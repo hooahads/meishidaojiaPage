@@ -1,0 +1,48 @@
+// out:./
+@vw:3.75vw;
+
+.Pane{
+    // display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: (375/@vw);
+    height: (150/@vw);
+    background-color: #f6f6f6;
+    // margin-top: (62/3.75vw);
+    .Bars{
+        
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        // display: flex;
+        position: absolute;
+        top: (4/@vw);
+        width: (361/@vw);
+        height: (142/@vw);
+            // background-color: #8d4747;
+        margin-left: (7/@vw);
+            .Bar{
+                float: left;
+                position: relative;
+                width: (72/@vw);
+                height: (71/@vw);
+                // background-color: #484848;
+                .Img{
+                position: absolute;
+                left: 50%;
+                top: 35%;
+                transform: translate(-50%, -50%);
+                width: 110%;
+                }
+                .Title{
+                 position: absolute;
+                 bottom: (4/@vw); 
+                 left: 50%;  
+                 transform: translate(-50%, -10%);
+                 font-size: (12/@vw);  
+                }
+
+            }
+
+    }
+}

@@ -1,0 +1,30 @@
+.FilterMeals {
+  position: fixed;
+  width: 100vw;
+  height: 16vw;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+}
+.boxflex {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vw;
+}
+.Input {
+  width: 82.66666667vw;
+  height: 8vw;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 4.26666667vw;
+  outline: none;
+  padding-left: 6.4vw;
+  font-size: 3.73333333vw;
+}
+.Searchbar {
+  position: absolute;
+  margin-left: -81.06666667vw;
+  color: #aaa;
+  font-size: 4.8vw;
+}

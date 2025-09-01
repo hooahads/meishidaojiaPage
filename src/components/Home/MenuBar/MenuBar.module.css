@@ -1,0 +1,37 @@
+.Pane {
+  flex-wrap: wrap;
+  position: relative;
+  width: 100vw;
+  height: 40vw;
+  background-color: #f6f6f6;
+}
+.Pane .Bars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 1.06666667vw;
+  width: 96.26666667vw;
+  height: 37.86666667vw;
+  margin-left: 1.86666667vw;
+}
+.Pane .Bars .Bar {
+  float: left;
+  position: relative;
+  width: 19.2vw;
+  height: 18.93333333vw;
+}
+.Pane .Bars .Bar .Img {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+}
+.Pane .Bars .Bar .Title {
+  position: absolute;
+  bottom: 1.06666667vw;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 3.2vw;
+}

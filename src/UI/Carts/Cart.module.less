@@ -1,0 +1,79 @@
+// out:./
+
+.Cart{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: (15/3.75vw);
+    width: (362/3.75vw);
+    height: (40/3.75vw);
+    background-color: #4f4c4c;
+    border-radius: (18/3.75vw);
+    left: 0;
+    right: 0;
+    margin: auto ;
+    z-index: 999;
+}
+
+.Peice{
+    color: #fff;
+    position: absolute;
+    left: 50px;
+    line-height: (12/3.75vw);
+}
+
+.Icon{
+    display: flex;
+    // 父相
+    position: relative;
+}
+
+.Icon img{
+    display: block;
+    // 子绝
+    position: absolute;
+    width: (40/3.75vw);
+    height: (54/3.75vw);
+    bottom: (-5/3.75vw);
+
+}
+
+.TotalAmount{
+    position: absolute;
+    left: (24/3.75vw);
+    bottom: (30/3.75vw);
+    width: (18/3.75vw);
+    height: (18/3.75vw);
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: (18/3.75vw);
+    font-size: (12/3.75vw);
+    border-radius: 50%;
+    z-index: 999;
+}
+
+
+
+.noMeal{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: (-10/3.75rem);
+    font-weight: bold;
+    
+}
+
+
+.Button{
+    border-radius: (18/3.75vw);
+    width: (90/3.75vw);
+    background-color: #fcbf49;
+    border: none;
+}
+
+.Disabled{
+    background-color: #808080;
+    color: #bdbdbd;
+}

@@ -1,0 +1,41 @@
+// out:./
+.CheckoutItem{
+    display: flex;
+}
+
+.MealImg{
+    width: (100/3.75vw);
+    margin-left: (10/3.75vw);
+}
+
+.Desc{
+    flex: auto;
+    margin-left: (2/3.75vw);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.Title{
+    font-size: (14/3.75vw);
+    margin-left: (10/3.75vw);
+}
+
+.PricOuter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: (10/3.75vw);
+}
+
+.Price{
+    font-size: (16/3.75vw);
+    font-weight: bold;
+    margin-right: (20/3.75vw);
+}
+
+.Price::before{
+    content: '￥';
+    font-weight: normal;
+    font-size: 14px;
+
+}

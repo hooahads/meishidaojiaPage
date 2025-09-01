@@ -1,0 +1,63 @@
+.Cart {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 4vw;
+  width: 96.53333333vw;
+  height: 10.66666667vw;
+  background-color: #4f4c4c;
+  border-radius: 4.8vw;
+  left: 0;
+  right: 0;
+  margin: auto ;
+  z-index: 999;
+}
+.Peice {
+  color: #fff;
+  position: absolute;
+  left: 50px;
+  line-height: 3.2vw;
+}
+.Icon {
+  display: flex;
+  position: relative;
+}
+.Icon img {
+  display: block;
+  position: absolute;
+  width: 10.66666667vw;
+  height: 14.4vw;
+  bottom: -1.33333333vw;
+}
+.TotalAmount {
+  position: absolute;
+  left: 6.4vw;
+  bottom: 8vw;
+  width: 4.8vw;
+  height: 4.8vw;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  line-height: 4.8vw;
+  font-size: 3.2vw;
+  border-radius: 50%;
+  z-index: 999;
+}
+.noMeal {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-left: -2.66666667rem;
+  font-weight: bold;
+}
+.Button {
+  border-radius: 4.8vw;
+  width: 24vw;
+  background-color: #fcbf49;
+  border: none;
+}
+.Disabled {
+  background-color: #808080;
+  color: #bdbdbd;
+}

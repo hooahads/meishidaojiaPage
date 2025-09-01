@@ -1,0 +1,32 @@
+.Meal {
+  display: flex;
+  border-bottom: 1px #f2f2f2 solid;
+  padding: 2.66666667vw;
+}
+.Imgbox {
+  width: 32vw;
+}
+img {
+  width: 100%;
+}
+.DescBox {
+  flex: auto;
+  margin-left: 2.66666667vw;
+}
+.Title {
+  font-weight: normal;
+  font-size: 4.8vw;
+  margin: 0;
+}
+.Desc {
+  margin: 0;
+  font-size: 3.73333333vw;
+  color: #737171;
+}
+.PriceWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.Price {
+  margin-top: 2.13333333vw;
+}

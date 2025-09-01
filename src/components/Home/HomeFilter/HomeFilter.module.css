@@ -1,0 +1,40 @@
+.Filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95.73333333vw;
+  height: 6.93333333vw;
+  margin-left: 2.13333333vw;
+  border-radius: 2.66666667vw;
+  background-color: #fff;
+  position: sticky;
+  top: 16vw;
+}
+.Filter .Suggest {
+  width: 19.73333333vw;
+  height: 6.4vw;
+  background-color: #FECE4D;
+  border-radius: 2.13333333vw;
+  font-size: 2.93333333vw;
+  line-height: 6.4vw;
+}
+.Filter .Filter_btns {
+  border-radius: 2.13333333vw;
+}
+.Filter .Filter_btns .Btn {
+  padding: 0;
+  width: 19.73333333vw;
+  height: 6.4vw;
+  margin-bottom: 1px;
+  border-radius: 2.13333333vw;
+  border: none;
+  line-height: 6.4vw;
+  font-size: 2.93333333vw;
+  background-color: #fff;
+  color: #333;
+}
+.Filter .Filter_btns .Active {
+  background-color: #FECE4D;
+  color: #333;
+  font-weight: bold;
+}

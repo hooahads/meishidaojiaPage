@@ -1,0 +1,46 @@
+.FilterMeals {
+  position: fixed;
+  width: 100vw;
+  height: 16vw;
+  background-color: #FECE4D;
+  border-bottom: 1px solid #f2f2f2;
+  top: 0;
+  left: 0;
+  margin: auto;
+  z-index: 99;
+}
+.boxflex {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vw;
+}
+.Input {
+  width: 85.33333333vw;
+  height: 8.53333333vw;
+  background-color: #fff;
+  border: none;
+  border-radius: 4.26666667vw;
+  outline: none;
+  padding-left: 7.46666667vw;
+  font-size: 3.73333333vw;
+}
+.Searchbar {
+  position: absolute;
+  margin-left: -83.73333333vw;
+  color: #aaa;
+  font-size: 4.26666667vw;
+}
+.Search {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 4vw;
+  width: 14.4vw;
+  height: 7.46666667vw;
+  background-color: #FECE4D;
+  line-height: 7.46666667vw;
+  border-radius: 4.26666667vw;
+  font-size: 3.73333333vw;
+}

@@ -1,0 +1,25 @@
+.SwiperContainer {
+  width: 100%;
+  margin: 0,auto;
+}
+.Img {
+  margin-top: 16vw;
+}
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.3);
+  width: 4px ;
+  height: 4px ;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+  margin-top: 5.33333333vw;
+}
+:global(.swiper-button-next:after),
+:global(.swiper-button-prev:after) {
+  font-size: 14px ;
+}
+:global(.swiper-pagination-bullet) {
+  width: 1.6vw;
+  height: 1.6vw;
+}
