@@ -49,6 +49,10 @@ const router = createBrowserRouter([
         element:<Chicken/>
     },
 
-])
+],
+{
+    basename: process.env.NODE_ENV === 'production' ? '/meishidaojiaPage' : '/',
+  }
+)
 
 export default router
